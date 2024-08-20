@@ -39,7 +39,109 @@ ASSIGNMENT 2:
 
 What data we can store in shopping cart?
 
-"Shopping Kart.pptx" file have the solution to the assignment
+1. Cart ID
+Unique Identifier: A unique identifier for each shopping cart, often generated when the user first adds an item to the cart.
+
+2. User Information
+User ID: A unique identifier for the user, if they are logged in.
+Session ID: If the user is not logged in, a session ID might be used to associate the cart with a specific browsing session.
+User Details: Optionally, details like user name, email, and shipping information can be stored temporarily during the checkout process.
+
+3. Cart Items
+Product ID: Unique identifier for each product added to the cart.
+Product Name: The name of the product.
+Product Image URL: A URL to the image of the product, useful for display purposes.
+Product Description: A brief description of the product.
+Quantity: The number of units of the product that the user intends to purchase.
+Price: The price per unit of the product.
+Total Price: The total price for this particular item (price multiplied by quantity).
+
+4. Cart Totals
+Subtotal: The total cost of all items in the cart before taxes, discounts, and shipping.
+Discounts: Any discounts applied to the cart, either as a whole or on individual items.
+Taxes: The calculated tax based on the items in the cart and the user’s location.
+Shipping Cost: The cost of shipping based on the user's selected shipping method.
+Total Cost: The final total after adding taxes and shipping costs, and applying any discounts.
+
+5. Timestamps
+Creation Date: The date and time when the cart was first created.
+Last Updated: The date and time when the cart was last modified.
+
+6. Promo Codes or Coupons
+Promo Code: Any promotional code or coupon applied to the cart.
+Discount Amount: The value of the discount provided by the promo code.
+
+7. Shipping Information
+Shipping Address: The address where the items will be shipped.
+Shipping Method: The selected shipping method (e.g., standard, express).
+Estimated Delivery Date: The estimated date of delivery based on the shipping method chosen.
+
+8. Payment Information
+Payment Method: The payment method chosen by the user (e.g., credit card, PayPal).
+Payment Status: The current status of the payment (e.g., pending, completed).
+Transaction ID: An identifier for the payment transaction, if payment has been initiated.
+
+9. Inventory Information
+Stock Availability: Real-time data on whether the items are still in stock, which can be used to notify users if something becomes unavailable.
+
+10. Saved for Later Items
+Product ID: For items saved for later purchase but not currently in the active cart.
+
+11. Cart Status
+Active: Indicates that the cart is currently in use by the user.
+Abandoned: A flag to indicate that the user left the cart without completing the purchase. This can be used for remarketing or sending reminders.
+Completed: Indicates that the purchase has been completed, and the cart is now closed.
+
+12. Product Variants
+Product Options: Variants such as size, color, or other customizable options chosen by the user.
+SKU (Stock Keeping Unit): A unique identifier for each product variant, helping in managing inventory.
+
+13. Wishlist Integration
+Wishlist ID: If the user has items in a wishlist that they add to the cart, tracking the source of the item can help in analytics and personalization.
+
+14. Cross-sell/Up-sell Data
+Suggested Products: Information on products that are suggested to the user based on their current cart contents, to encourage additional purchases.
+Bundles/Offers: Information about any product bundles or special offers that apply when certain items are in the cart together.
+
+15. Analytics & User Behavior Data
+Time Spent on Cart: How long a user spends interacting with the cart.
+Cart Modification History: Logs of any changes made to the cart, such as items added, removed, or quantity changes.
+Exit Intent Data: Capturing when a user is about to leave the cart or site without purchasing, often used to trigger pop-ups or reminders.
+
+16. Loyalty & Rewards
+Loyalty Points: If the system includes a rewards program, store the loyalty points earned or redeemed with the cart.
+Membership Status: If the user has a membership or subscription that impacts pricing or offers, it can be tracked here.
+
+17. Gift Options
+Gift Wrap: Whether the user has chosen gift wrapping for the items.
+Gift Message: Any personalized message the user wants to include with the gift.
+
+18. Cart Recovery Information
+Email Capture: For guest users, capturing an email address early in the process can help with cart recovery efforts.
+Abandoned Cart Reminders: Settings or flags that determine if and when reminders should be sent for an abandoned cart.
+
+19. Shipping & Handling Instructions
+Special Instructions: Any specific shipping or handling instructions provided by the user.
+Pickup/Delivery Preferences: If the system supports options like in-store pickup, these preferences can be stored in the cart.
+
+20. Multi-Currency Support
+Currency Type: If the system supports multiple currencies, store the currency selected by the user.
+Exchange Rate: The exchange rate applied at the time of adding items to the cart if the user is shopping in a different currency.
+
+21. Tax Information
+Tax Breakdown: A detailed breakdown of different tax components (e.g., federal, state, local taxes).
+Tax Exemption Status: If the user qualifies for a tax exemption, this information can be stored and applied to the cart.
+
+22. Shipping Cost Estimator
+Real-Time Shipping Rates: If integrated with shipping carriers, store the estimated shipping costs based on the user’s address and chosen shipping method.
+
+23. Customer Support Information
+Support Ticket ID: If the user has contacted customer support regarding items in their cart, tracking this can help resolve issues more efficiently.
+Chat Logs: Any live chat or chatbot interactions related to the cart.
+
+"Shopping Kart.pptx" file have the solution to the assignment.
+
+
 
 
 
