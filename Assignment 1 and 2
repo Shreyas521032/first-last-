@@ -1,6 +1,6 @@
-ASSIGNMENT 1:
+#ASSIGNMENT 1:
 
-Week 1: Problem Statement & Service Layer
+##Week 1: Problem Statement & Service Layer
 
 To meet the one-month deadline for developing the shopping cart system, the entire process must be significantly accelerated.
 The first week focuses on both the problem statement and service layer planning. The project begins with defining the primary goal
@@ -9,7 +9,7 @@ of the system and the problems it aims to solve for both the business and its cu
 to planning the system's architecture, including the design of user interaction flows, data flow mapping, and selecting the appropriate
 communication protocols for secure and efficient data transfer.
 
-Week 2: Development - Planning & Design
+##Week 2: Development - Planning & Design
 
 In the second week, the focus shifts to detailed planning and design. This involves finalizing the requirements and creating wireframes
 for the user interface, along with designing the database structure and API endpoints. The development environment is also set up during this time,
@@ -17,14 +17,14 @@ with version control established using Git and GitHub. By mid-week, initial deve
 and back-end components. Integration points between the front-end, built using React.js with Redux, and the back-end, developed with Node.js
 and Express.js, are established to ensure seamless communication between the system's components.
 
-Week 3: Development - Implementation & Integration
+##Week 3: Development - Implementation & Integration
 
 The third week is dedicated to the full-scale implementation and integration of the system. The front-end features are developed using React.js
 with Redux, while the back-end logic, including API creation with Express.js and MongoDB integration, is implemented. JWT is incorporated for
 secure user authentication. By the end of the week, the front-end and back-end are integrated, and initial testing is conducted to identify and
 address any critical issues, ensuring the system functions as intended.
 
-Week 4: Testing, Refinement, & Launch
+##Week 4: Testing, Refinement, & Launch
 
 In the final week, the focus is on thorough testing, refinement, and the deployment of the system. Rigorous testing is performed to check functionality,
 performance, and security, with any identified issues being resolved promptly. Once the system is optimized, it is deployed on a live server,
@@ -34,7 +34,7 @@ to ongoing maintenance and updates based on user feedback, ensuring continuous i
 https://files.mymap.ai/exports/vozLNXpHhI1bn/Ky9NU6d4DoNxug7YcUkrf.png
 
 
-ASSIGNMENT 2:
+#ASSIGNMENT 2:
 
 What data we can store in shopping cart?
 
