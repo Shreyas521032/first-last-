@@ -39,6 +39,8 @@ ASSIGNMENT 2:
 
 What data we can store in shopping cart?
 
+"Assignment 2 Shopping Kart.pptx" file have the presentation based solution to the assignment.
+
 1. Cart ID
 Unique Identifier: A unique identifier for each shopping cart, often generated when the user first adds an item to the cart.
 
@@ -139,7 +141,6 @@ Real-Time Shipping Rates: If integrated with shipping carriers, store the estima
 Support Ticket ID: If the user has contacted customer support regarding items in their cart, tracking this can help resolve issues more efficiently.
 Chat Logs: Any live chat or chatbot interactions related to the cart.
 
-"Shopping Kart.pptx" file have the solution to the assignment.
 
 
 
